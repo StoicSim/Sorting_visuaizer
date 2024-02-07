@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
@@ -59,4 +59,4 @@ Switch.propTypes = {
   className: PropTypes.string
 };
 
-export default Switch;
+export default Switch;*/

@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import './style.css';
 
 import Button from '../../atoms/Button';
-import Switch from '../../atoms/Switch';
-import Menu from '../../molecules/Menu';
+//import Switch from '../../atoms/Switch';
+import Menu from '../Menu';
 
-const AppControls = ({
+const SortingControls = ({
   algorithm,
   onAlgorithmChange,
   onGenerateRandomArray,
@@ -33,7 +33,7 @@ const AppControls = ({
         onSelect={onAlgorithmChange}
       />
 
-      <div className="AppControls__Size">
+      <div className="SortingControls__Size">
         <span>Size</span>
         <Menu
           placeholder="Array Size"
@@ -45,16 +45,16 @@ const AppControls = ({
 
       <Button onClick={onGenerateRandomArray}>Randomize</Button>
 
-      <Switch
+      {/* <Switch
         label="Dark Mode"
         onSwitch={onToggleDarkMode}
         checked={darkMode}
-      />
+      /> */}
     </Fragment>
   );
 };
 
-AppControls.propTypes = {
+SortingControls.propTypes = {
   algorithm: PropTypes.string,
   onAlgorithmChange: PropTypes.func.isRequired,
   onGenerateRandomArray: PropTypes.func.isRequired,
@@ -64,4 +64,4 @@ AppControls.propTypes = {
   darkMode: PropTypes.bool
 };
 
-export default AppControls;
+export default SortingControls;
