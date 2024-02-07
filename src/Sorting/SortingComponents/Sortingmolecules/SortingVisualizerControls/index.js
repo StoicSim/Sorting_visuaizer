@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import PropTypes from 'prop-types';
 
-import Button from '../../atoms/Button';
+import Button from '../../Sortingatoms//SortingButton';
 import {
   MdPlayArrow as Play,
   MdPause as Pause,
@@ -10,7 +10,7 @@ import {
   MdSkipPrevious as Backward,
   MdRepeat as Repeat
 } from 'react-icons/md';
-import Menu from '../Menu';
+import Menu from '..//SortingMenu';
 
 // Helper function
 function isDisabled(action, disabled = false) {

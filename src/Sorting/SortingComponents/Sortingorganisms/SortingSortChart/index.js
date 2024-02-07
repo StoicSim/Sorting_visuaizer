@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
-import Bar from '../../atoms/Bar';
+import Bar from '../../Sortingatoms//SortingBar';
 
 const getListOfBars = (
   numbers,

@@ -1,5 +1,5 @@
 import React from 'react';
-import Sorting from './Sorting';
+import Sorting from './Sorting/Sorting';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 
 function App() {

@@ -1,4 +1,4 @@
-@import './_settngs/variables.css';
+@import './SortingSettngs/variables.css';
 
 .Sorting {
     --footer-height: 64px;

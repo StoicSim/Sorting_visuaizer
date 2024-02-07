@@ -2,44 +2,44 @@ import React, { Component } from 'react';
 import './Sorting.css';
 import './SortingDark.css';
 
-import SortingControls from './components/molecules/SortingControls';
-import TopBar from './components/organisms/TopBar';
-import SortingDrawer from './components/organisms/SortingDrawer';
-import SortVisualizer from './components/organisms/SortVisualizer';
-import Footer from './components/molecules/Footer';
+import SortingControls from '../Sorting/SortingComponents/Sortingmolecules/SortingControls';
+import TopBar from '../Sorting/SortingComponents/Sortingorganisms/SortingTopBar';
+import SortingDrawer from '../Sorting/SortingComponents/Sortingorganisms/SortingDrawer';
+import SortVisualizer from '../Sorting/SortingComponents/Sortingorganisms/SortingSortVisualizer';
+import Footer from '../Sorting/SortingComponents/Sortingmolecules/SortingFooter';
 
 import BubbleSort, {
     BubbleSortKey,
     BubbleSortDesc
-} from './algorithms/BubbleSort';
+} from '../Sorting/SortingAlgorithms/BubbleSort';
 import SelectionSort, {
     SelectionSortKey,
     SelectionSortDesc
-} from './algorithms/SelectionSort';
+} from '../Sorting/SortingAlgorithms/SelectionSort';
 import InsertionSort, {
     InsertionSortKey,
     InsertionSortDesc
-} from './algorithms/InsertionSort';
+} from '../Sorting/SortingAlgorithms/InsertionSort';
 import MergeSort, {
     MergeSortKey,
     MergeSortDesc
-} from './algorithms/MergeSort';
+} from '../Sorting/SortingAlgorithms/MergeSort';
 import QuickSort, {
     QuickSortKey,
     QuickSortDesc
-} from './algorithms/QuickSort';
+} from '../Sorting/SortingAlgorithms/QuickSort';
 import QuickSort3, {
     QuickSort3Key,
     QuickSort3Desc
-} from './algorithms/QuickSort3';
+} from '../Sorting/SortingAlgorithms/QuickSort3';
 import HeapSort, {
     HeapSortKey,
     HeapSortDesc
-} from './algorithms/HeapSort';
+} from '../Sorting/SortingAlgorithms/HeapSort';
 import ShellSort, {
     ShellSortKey,
     ShellSortDesc
-} from './algorithms/ShellSort';
+} from '../Sorting/SortingAlgorithms/ShellSort';
 
 class Sorting extends Component {
     state = {

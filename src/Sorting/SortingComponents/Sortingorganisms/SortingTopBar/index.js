@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
-import Button from '../../atoms/Button';
+import Button from '../../Sortingatoms/SortingButton';
 import { MdMenu as Hamburger, MdClose as Close } from 'react-icons/md';
 
 const TopBar = ({ drawerOpen, toggleDrawer, children }) => {

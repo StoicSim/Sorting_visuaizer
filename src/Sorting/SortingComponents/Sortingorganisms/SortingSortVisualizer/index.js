@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './style.css';
 
 // Sub components
-import SortChart from '../SortChart';
-import VisualizerControls from '../../molecules/VisualizerControls';
-import ProgressBar from '../../molecules/ProgressBar';
-import ColorKey from '../../molecules/ColorKey';
-import SortInfo from '../../molecules/SortInfo';
+import SortChart from '../SortingSortChart';
+import VisualizerControls from '../../Sortingmolecules/SortingVisualizerControls';
+import ProgressBar from '../../Sortingmolecules/SortingProgressBar';
+import ColorKey from '../../Sortingmolecules/SortingColorKey';
+import SortInfo from '../../Sortingmolecules/SortingSortInfo';
 
 class SortVisualizer extends Component {
   state = {
@@ -173,8 +173,8 @@ class SortVisualizer extends Component {
             width={
               this.state.trace.length > 0
                 ? (this.state.traceStep /
-                    (this.state.trace.length - 1)) *
-                  100
+                  (this.state.trace.length - 1)) *
+                100
                 : 0
             }
           />

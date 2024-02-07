@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import './style.css';
 
-import Button from '../../atoms/Button';
-//import Switch from '../../atoms/Switch';
-import Menu from '../Menu';
+import Button from '../../Sortingatoms/SortingButton';
+//import Switch from '../../Sortingatoms/Switch';
+import Menu from '../SortingMenu';
 
 const SortingControls = ({
   algorithm,

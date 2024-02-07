@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react';
 import './style.css';
 
-import Backdrop from '../../atoms/Backdrop';
+import Backdrop from '../../Sortingatoms/SortingBackdrop';
 
 const SortingDrawer = ({ open, children, closeDrawer }) => {
   let className = 'SortingDrawer';
